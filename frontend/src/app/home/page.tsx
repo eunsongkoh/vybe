@@ -1,9 +1,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import FaultyTerminal from '@/components/FaultyTerminal';
 
 export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-neutral-950 text-white">
+    <main className="relative flex min-h-screen flex-col items-center justify-center p-24 text-white overflow-hidden">
+      <div className="absolute top-0 left-0 w-full h-full">
+        <FaultyTerminal className="" style={{}} dpr={null} scale={3} brightness={0.1} />
+      </div>
       <div className="z-10 w-full max-w-5xl items-center justify-center font-mono text-sm flex flex-col gap-8">
         <Image
           src="/vybe logo white.svg"
