@@ -16,12 +16,12 @@ export default function HomePage() {
           height={37}
           priority
         />
-        <h1 className="text-4xl font-semibold ml-4 tracking-wider">Welcome to VYBE</h1>
+        <h1 className="text-4xl font-semibold ml-4 tracking-wider">Your Crowd's Vibe, Quantified.</h1>
         <div className="flex gap-8">
-          <Link href="/dj" className="font-sans bg-white/10 hover:bg-white/20 backdrop-blur-xl border border-white/30 text-white font-normal py-3 px-6 rounded-full text-lg shadow-lg shadow-white/10 transform hover:scale-105 transition-all duration-300 tracking-wide">
+          <Link href="/dj" className="bg-white/10 hover:bg-white/20 backdrop-blur-xl border border-white/30 text-white font-normal py-3 px-6 rounded-full text-lg shadow-lg shadow-white/10 transform hover:scale-105 transition-all duration-300 tracking-wide">
             DJ Dashboard
           </Link>
-          <Link href="/audience" className="font-sans bg-white/10 hover:bg-white/20 backdrop-blur-xl border border-white/30 text-white font-normal py-3 px-6 rounded-full text-lg shadow-lg shadow-white/10 transform hover:scale-105 transition-all duration-300 tracking-wide">
+          <Link href="/audience" className="bg-white/10 hover:bg-white/20 backdrop-blur-xl border border-white/30 text-white font-normal py-3 px-6 rounded-full text-lg shadow-lg shadow-white/10 transform hover:scale-105 transition-all duration-300 tracking-wide">
             Audience Voting
           </Link>
         </div>

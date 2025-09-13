@@ -9,7 +9,7 @@ export default function MetricCard({ title, value, change, changeType }: MetricC
   const changeColor = changeType === 'increase' ? 'text-green-500' : 'text-red-500';
 
   return (
-    <div className="bg-neutral-900 p-6 rounded-lg">
+    <div className="bg-white/10 backdrop-blur-xl border border-white/30 p-6 rounded-lg">
       <h3 className="text-neutral-400 text-sm mb-2">{title}</h3>
       <p className="text-3xl font-bold">{value}</p>
       {change && (

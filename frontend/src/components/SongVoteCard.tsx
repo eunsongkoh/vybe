@@ -30,10 +30,7 @@ const SongVoteCard: React.FC<SongVoteCardProps> = ({ songName }) => {
 
   return (
     <div 
-      className="bg-opacity-50 backdrop-blur-lg rounded-3xl p-8 text-white w-full max-w-sm shadow-2xl border border-slate-700"
-      style={{
-        background: 'radial-gradient(circle at 50% 0%, rgba(51, 65, 85, 0.5) 0%, rgba(15, 23, 42, 0.8) 100%)'
-      }}
+      className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-8 text-white w-full max-w-sm shadow-2xl"
     >
       <div className="text-center mb-10">
         <h2 className="text-3xl font-bold tracking-tight">{songName}</h2>
