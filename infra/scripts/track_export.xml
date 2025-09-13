@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+<PRODUCT Name="rekordbox" Version="7.1.3" Company="AlphaTheta"/>
+<COLLECTION Entries="713">
+    <DJ_PLAYLISTS Version="1.0.0">
+        <TRACK TrackID="261096899" Name="LMFAO - PARTY ROCK! (bauti lazy flip) (1)"
+            Artist="" Composer="" Album="" Grouping="" Genre="" Kind="WAV File"
+            Size="74855004" TotalTime="212" DiscNumber="0" TrackNumber="0"
+            Year="0" AverageBpm="138.00" DateAdded="2025-09-01" BitRate="2822"
+            SampleRate="44100" Comments="" PlayCount="3" Rating="0" Location="file://localhost/Volumes/T7/DJ/songs/ibiza_kinda/LMFAO%20-%20PARTY%20ROCK!%20(bauti%20lazy%20flip)%20(1).wav"
+            Remixer="" Tonality="1A" Label="" Mix="">
+            <TEMPO Inizio="0.000" Bpm="138.00" Metro="4/4" Battito="1"/>
+                <POSITION_MARK Name="1.1Bars" Type="0" Start="0.000" Num="0" Red="255" Green="55"
+                                Blue="111"/>
+                <POSITION_MARK Name="" Type="0" Start="13.913" Num="1" Red="69" Green="172"
+                                Blue="219"/>
+                <POSITION_MARK Name="" Type="0" Start="27.826" Num="2" Red="125" Green="193"
+                                Blue="61"/>
+                <POSITION_MARK Name="" Type="0" Start="67.827" Num="3" Red="170" Green="114"
+                                Blue="255"/>
+                <POSITION_MARK Name="" Type="0" Start="69.566" Num="4" Red="48" Green="210"
+                                Blue="110"/>
+                <POSITION_MARK Name="" Type="0" Start="97.392" Num="5" Red="224" Green="100"
+                                Blue="27"/>
+                <POSITION_MARK Name="" Type="0" Start="123.479" Num="6" Red="48" Green="90"
+                                Blue="255"/>
+                <POSITION_MARK Name="" Type="0" Start="156.522" Num="7" Red="195" Green="175"
+                                Blue="4"/>
+        </TRACK>
+        <TRACK TrackID="33194873" Name="NO BROKE BOYS (WILLØ &amp; CODY KO REMIX) (Extended Mix)"
+                Artist="DISCO LINES &amp; TINASHE" Composer="" Album="" Grouping=""
+                Genre="House" Kind="MP3 File" Size="7672966" TotalTime="198"
+                DiscNumber="0" TrackNumber="0" Year="0" AverageBpm="138.00" DateAdded="2025-09-01"
+                BitRate="0" SampleRate="44100" Comments="G#m" PlayCount="3" Rating="0"
+                Location="file://localhost/Volumes/T7/DJ/songs/ibiza_kinda/DISCO%20LINES%20%26%20TINASHE%20-%20NO%20BROKE%20BOYS%20(WILL%c3%98%20%26%20CODY%20KO%20REMIX)%20(Extended%20Mix).mp3"
+                Remixer="" Tonality="1A" Label="" Mix="">
+            <TEMPO Inizio="0.052" Bpm="138.00" Metro="4/4" Battito="1"/>
+            <POSITION_MARK Name="1.1Bars" Type="0" Start="0.052" Num="0" Red="255" Green="55"
+                            Blue="111"/>
+            <POSITION_MARK Name="" Type="0" Start="13.965" Num="1" Red="69" Green="172"
+                            Blue="219"/>
+            <POSITION_MARK Name="" Type="0" Start="27.878" Num="2" Red="125" Green="193"
+                            Blue="61"/>
+            <POSITION_MARK Name="" Type="0" Start="55.704" Num="3" Red="170" Green="114"
+                            Blue="255"/>
+            <POSITION_MARK Name="" Type="0" Start="69.617" Num="4" Red="48" Green="210"
+                            Blue="110"/>
+            <POSITION_MARK Name="" Type="0" Start="83.530" Num="5" Red="224" Green="100"
+                            Blue="27"/>
+            <POSITION_MARK Name="" Type="0" Start="97.443" Num="6" Red="48" Green="90" Blue="255"/>
+            <POSITION_MARK Name="" Type="0" Start="128.747" Num="7" Red="195" Green="175"
+                            Blue="4"/>
+        </TRACK>
+        <TRACK TrackID="94947243" Name="Calvin Harris - Blessings (feat. Clementine Douglas) (Dave Summer Edit) (Extended Mix WAV)"
+                Artist="" Composer="" Album="" Grouping="" Genre="" Kind="WAV File"
+                Size="83731384" TotalTime="316" DiscNumber="0" TrackNumber="0"
+                Year="0" AverageBpm="135.00" DateAdded="2025-07-06" BitRate="2116"
+                SampleRate="44100" Comments="" PlayCount="9" Rating="0" Location="file://localhost/Volumes/T7/DJ/songs/house/Calvin%20Harris%20-%20Blessings%20(feat.%20Clementine%20Douglas)%20(Dave%20Summer%20Edit)%20(Extended%20Mix%20WAV).wav"
+                Remixer="" Tonality="10A" Label="" Mix="">
+            <TEMPO Inizio="0.000" Bpm="135.00" Metro="4/4" Battito="1"/>
+            <TEMPO Inizio="0.445" Bpm="135.00" Metro="4/4" Battito="2"/>
+            <TEMPO Inizio="36.890" Bpm="135.00" Metro="4/4" Battito="4"/>
+            <TEMPO Inizio="173.335" Bpm="135.00" Metro="4/4" Battito="3"/>
+            <TEMPO Inizio="309.780" Bpm="135.00" Metro="4/4" Battito="2"/>
+            <POSITION_MARK Name="1.1Bars" Type="0" Start="0.000" Num="0" Red="255" Green="55"
+                            Blue="111"/>
+            <POSITION_MARK Name="" Type="0" Start="42.667" Num="1" Red="69" Green="172"
+                            Blue="219"/>
+            <POSITION_MARK Name="" Type="0" Start="71.112" Num="2" Red="125" Green="193"
+                            Blue="61"/>
+            <POSITION_MARK Name="" Type="0" Start="85.334" Num="3" Red="170" Green="114"
+                            Blue="255"/>
+            <POSITION_MARK Name="" Type="0" Start="99.556" Num="4" Red="48" Green="210"
+                            Blue="110"/>
+            <POSITION_MARK Name="" Type="0" Start="156.446" Num="5" Red="224" Green="100"
+                            Blue="27"/>
+            <POSITION_MARK Name="" Type="0" Start="195.557" Num="6" Red="48" Green="90"
+                            Blue="255"/>
+            <POSITION_MARK Name="" Type="0" Start="227.557" Num="7" Red="195" Green="175"
+                            Blue="4"/>
+        </TRACK>
+    </DJ_PLAYLISTS>
+</COLLECTION>
+</ROOT>
