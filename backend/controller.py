@@ -90,7 +90,7 @@ with mido.open_input(midi_port_name) as inport:
         elif msg.type == "control_change":
             deck = tempo_controls.get(msg.control)
             print(f"{deck} - Control Change: {msg.control}")
-        print(deck)
+
         if deck:
             time.sleep(0.6)
             bpm, key, song = capture_bpm_key(deck)
