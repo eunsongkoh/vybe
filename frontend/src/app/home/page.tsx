@@ -16,7 +16,7 @@ export default function HomePage() {
           height={37}
           priority
         />
-        <h1 className="text-4xl font-semibold ml-4 tracking-wider">Your Crowd's Vibe, Quantified.</h1>
+        <h1 className="text-3xl ml-4 tracking-wider">Your Crowd's Vibe, Quantified.</h1>
         <div className="flex gap-8">
           <Link href="/dj" className="bg-white/10 hover:bg-white/20 backdrop-blur-xl border border-white/30 text-white font-normal py-3 px-6 rounded-full text-lg shadow-lg shadow-white/10 transform hover:scale-105 transition-all duration-300 tracking-wide">
             DJ Dashboard

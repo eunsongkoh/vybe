@@ -79,7 +79,7 @@
 }
 
 .dark {
-  --background: oklch(0.15 0 0);
+  --background: #131314;
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.205 0 0);
   --card-foreground: oklch(0.985 0 0);
@@ -102,7 +102,7 @@
   --chart-3: oklch(0.769 0.188 70.08);
   --chart-4: oklch(0.627 0.265 303.9);
   --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
+  --sidebar: #1B1B1B;
   --sidebar-foreground: oklch(0.985 0 0);
   --sidebar-primary: oklch(0.488 0.243 264.376);
   --sidebar-primary-foreground: oklch(0.985 0 0);
@@ -119,5 +119,12 @@
   body {
     @apply bg-background text-foreground;
     font-family: var(--font-sans);
+  }
+}
+
+@media (max-width: 1024px) {
+  .sidebar-open main {
+    filter: blur(4px) brightness(0.5);
+    transition: filter 0.3s ease-in-out;
   }
 }
