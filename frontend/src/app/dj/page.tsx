@@ -14,7 +14,6 @@ export default function DjPage() {
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
             <MetricCard title="Movement" value="78%" change="+5%" changeType="increase" />
             <MetricCard title="Energy" value="High" change="-2%" changeType="decrease" />
-            <MetricCard title="Facial Expression" value="Happy" />
             <AudienceVotes upvotes={128} downvotes={23} />
           </div>
         </div>
