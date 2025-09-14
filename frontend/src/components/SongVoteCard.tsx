@@ -42,7 +42,6 @@ export default function SongVoteCard({ songName, trackId }: SongVoteCardProps) {
   useEffect(() => {
     const ws = getWS();
     return () => {
-      try { ws.close(); } catch {}
     };
   }, []);
 
