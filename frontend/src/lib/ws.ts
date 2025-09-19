@@ -40,7 +40,13 @@
 //   return () => listeners.get(type)!.delete(cb);
 // }
 let socket: WebSocket | null = null;
-const listeners = new Map<string, Set<(m:any)=>void>>();
+
+interface Message {
+  type: string;
+  [key: string]: unknown;
+}
+
+const listeners = new Map<string, Set<(m: Message) => void>>();
 
 export function getWS() {
   if (socket && (socket.readyState === WebSocket.OPEN || socket.readyState === WebSocket.CONNECTING)) return socket;
@@ -49,7 +55,7 @@ export function getWS() {
   socket = new WebSocket(url);
   socket.onmessage = (e) => {
     try {
-      const data = JSON.parse(e.data);
+      const data = JSON.parse(e.data) as Message;
       const set = listeners.get(data?.type);
       if (set) set.forEach(cb => cb(data));
     } catch {}
@@ -57,13 +63,13 @@ export function getWS() {
   return socket;
 }
 
-export function wsOn(type: string, cb: (m:any)=>void) {
+export function wsOn(type: string, cb: (m: Message) => void) {
   if (!listeners.has(type)) listeners.set(type, new Set());
   listeners.get(type)!.add(cb);
   return () => listeners.get(type)!.delete(cb);
 }
 
-export function wsSend(data: any) {
+export function wsSend(data: Record<string, unknown>) {
   const ws = getWS();
   const payload = JSON.stringify(data);
   if (ws.readyState === WebSocket.OPEN) ws.send(payload);

@@ -17,10 +17,14 @@ export default function Sidebar() {
       <nav>
         <ul>
           <li className="mb-4">
-            <a href="/dj" className="text-neutral-400 hover:text-white">DJ Dashboard</a>
+            <Link href="/dj" className="text-neutral-400 hover:text-white">
+              DJ Dashboard
+            </Link>
           </li>
           <li className="mb-4">
-            <a href="/audience" className="text-neutral-400 hover:text-white">Audience Voting</a>
+            <Link href="/audience" className="text-neutral-400 hover:text-white">
+              Audience Voting
+            </Link>
           </li>
           {/* Add more navigation items here */}
         </ul>
